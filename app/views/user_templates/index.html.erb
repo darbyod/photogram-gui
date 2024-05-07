@@ -1,8 +1,6 @@
 <h1>List of users</h1>
 
 
-<% x = @list_of_users.first %>
-
 <table border="1">
 
     <tr>
@@ -31,7 +29,7 @@
       </td>
 
       <td>
-        <a href=/users>Show details</a>
+        <a href="/users/<%= a_user.username %>" >Show details</a>
       </td>
 
     </tr>
